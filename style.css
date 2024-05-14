@@ -65,7 +65,7 @@ a{
 .main__container{    
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin: 2rem;     
+    margin: 2rem 2rem 0 2rem;     
     box-sizing: border-box;
 }
 /* @media only screen and (max-width:1400px){
@@ -78,4 +78,23 @@ a{
     margin-bottom: 2rem;
     margin-right: 1.7rem;
     height: 90vh;
+}
+footer{
+    background-color:rgb(98 95 95);
+    height: 18vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer h3{
+    color: var(--white);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 1.7rem;
+    font-family: var(--font-family-monospace);
+    padding-bottom: 0.7rem;
+}
+.footer__container-img{
+    height: 36px;
+    margin-right: 1.5rem;
 }
