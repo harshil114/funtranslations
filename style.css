@@ -138,7 +138,7 @@ footer h3{
 }
 .container-value--btn{  
   text-align: center;
-  margin-top: 3rem;
+  margin-top: 3rem;  
 }
 .main__container-value button{
    
@@ -152,6 +152,7 @@ footer h3{
     font-size: 1.1rem;  
     font-weight: 500;
     box-shadow: 3px 7px 11px -3px #888;
+    cursor: pointer;
 }
 .main__container-value p{
     display: flex;
