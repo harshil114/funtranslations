@@ -128,7 +128,7 @@ footer h3{
     margin-bottom: 0.8rem;
     color: var(--details-color);
 }
-.container-value--input textarea{
+.container-value--inputarea{
     height: 20vh;
     width: 38vw;
     border: 2px solid  #333;
@@ -136,11 +136,11 @@ footer h3{
     font-size: 1.2rem;
     color: var(--details-color);
 }
-.container-value--btn{  
+.container-value--btn-container{  
   text-align: center;
   margin-top: 3rem;  
 }
-.main__container-value button{
+.container-value--btn{
    
     width: 20vw;
     height: 6vh;
