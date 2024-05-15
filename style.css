@@ -140,7 +140,8 @@ footer h3{
   text-align: center;
   margin-top: 3rem;  
 }
-#container-value--btn-yoda{
+#container-value--btn-yoda,
+#container-value--btn-minion{
    
     width: 20vw;
     height: 6vh;
