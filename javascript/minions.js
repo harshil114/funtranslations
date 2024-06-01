@@ -1,11 +1,11 @@
 let inputDiv = document.querySelector(".container-value--inputarea");
-let buttonBritish = document.querySelector("#container-value--btn-british");
+let buttonMinion = document.querySelector("#container-value--btn-minion");
 let outputDiv = document.querySelector(".container-value--output");
-let britishServerURL = "https://api.funtranslations.com/translate/british.json";
+let minionServerURL = "https://api.funtranslations.com/translate/minion.json";
 
 
 function getURL(input){
-    return britishServerURL + "?" + "text=" + input;
+    return minionServerURL + "?" + "text=" + input;
 }
 function clickHandler(){
     let inputText = inputDiv.value;
@@ -16,4 +16,4 @@ function clickHandler(){
         outputDiv.innerText = translatedText;
     })
 }
-buttonBritish.addEventListener("click",clickHandler);
+buttonMinion.addEventListener("click",clickHandler);

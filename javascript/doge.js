@@ -1,11 +1,11 @@
 let inputDiv = document.querySelector(".container-value--inputarea");
 let buttonDoge = document.querySelector("#container-value--btn-doge");
 let outputDiv = document.querySelector(".container-value--output");
-let YodaServerURL = "https://api.funtranslations.com/translate/doge.json";
+let dogeServerURL = "https://api.funtranslations.com/translate/doge.json";
 
 
 function getURL(input){
-    return YodaServerURL + "?" + "text=" + input;
+    return dogeServerURL + "?" + "text=" + input;
 }
 function clickHandler(){
     let inputText = inputDiv.value;
